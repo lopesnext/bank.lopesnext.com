@@ -9,6 +9,7 @@ import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import DashboardPage from './pages/DashboardPage';
 import TransferPage from './pages/TransferPage';
+import ApiDocsPage from './pages/ApiDocsPage';
 
 // Protected Route Component
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -38,6 +39,14 @@ function App() {
             element={
               <ProtectedRoute>
                 <TransferPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/api-docs"
+            element={
+              <ProtectedRoute>
+                <ApiDocsPage />
               </ProtectedRoute>
             }
           />

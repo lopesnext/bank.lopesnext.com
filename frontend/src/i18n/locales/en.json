@@ -7,6 +7,7 @@
     "home": "Home",
     "dashboard": "Dashboard",
     "transfers": "Transfers",
+    "apiDocs": "API Documentation",
     "logout": "Logout"
   },
   "auth": {
@@ -109,5 +110,62 @@
     "import": "Import",
     "yes": "Yes",
     "no": "No"
+  },
+  "api": {
+    "title": "API Documentation",
+    "description": "Complete guide for integrating with the BankLopesNext platform API",
+    "yourToken": "Your authentication token",
+    "baseUrl": "API Base URL",
+    "requestBody": "Request Body",
+    "response": "Response",
+    "headers": "Headers",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "authentication": {
+      "title": "Authentication",
+      "description": "All API requests (except login and register) require authentication via JWT token.",
+      "usage": "Include the token in the Authorization header of all requests:"
+    },
+    "endpoints": {
+      "register": {
+        "title": "Register New User",
+        "description": "Creates a new user account and associated bank account."
+      },
+      "login": {
+        "title": "Authenticate User",
+        "description": "Authenticates a user and returns a JWT token."
+      },
+      "balance": {
+        "title": "Check Balance",
+        "description": "Gets the current balance of the authenticated user's account."
+      },
+      "transactions": {
+        "title": "List Transactions",
+        "description": "Gets the account transaction history. You can limit the number of results with the 'limit' parameter."
+      },
+      "transfer": {
+        "title": "Create Transfer",
+        "description": "Performs a bank transfer to another account."
+      },
+      "validateIban": {
+        "title": "Validate IBAN",
+        "description": "Validates an IBAN and returns destination account information."
+      }
+    },
+    "errors": {
+      "title": "Error Responses",
+      "description": "The API returns standard HTTP status codes to indicate success or failure:",
+      "badRequest": "Bad Request",
+      "unauthorized": "Unauthorized",
+      "notFound": "Not Found",
+      "serverError": "Server Error"
+    },
+    "curlExamples": {
+      "title": "cURL Examples",
+      "description": "Practical examples of how to use the API with cURL:",
+      "login": "Authentication",
+      "balance": "Check Balance",
+      "transfer": "Create Transfer"
+    }
   }
 }

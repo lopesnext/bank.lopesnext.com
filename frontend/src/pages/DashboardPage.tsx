@@ -97,9 +97,12 @@ const DashboardPage: React.FC = () => {
         </div>
 
         {/* Actions */}
-        <div className="mb-8">
+        <div className="mb-8 flex gap-4">
           <Link to="/transfer" className="btn-primary inline-block">
             {t('transfers.title')}
+          </Link>
+          <Link to="/api-docs" className="btn-secondary inline-block">
+            {t('nav.apiDocs')}
           </Link>
         </div>
 

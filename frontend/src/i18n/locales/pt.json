@@ -7,6 +7,7 @@
     "home": "Início",
     "dashboard": "Painel",
     "transfers": "Transferências",
+    "apiDocs": "Documentação API",
     "logout": "Sair"
   },
   "auth": {
@@ -109,5 +110,62 @@
     "import": "Importar",
     "yes": "Sim",
     "no": "Não"
+  },
+  "api": {
+    "title": "Documentação da API",
+    "description": "Guia completo para integração com a API da plataforma BankLopesNext",
+    "yourToken": "O seu token de autenticação",
+    "baseUrl": "URL Base da API",
+    "requestBody": "Corpo do Pedido",
+    "response": "Resposta",
+    "headers": "Cabeçalhos",
+    "copy": "Copiar",
+    "copied": "Copiado!",
+    "authentication": {
+      "title": "Autenticação",
+      "description": "Todas as requisições à API (exceto login e registo) requerem autenticação via token JWT.",
+      "usage": "Inclua o token no cabeçalho Authorization de todas as requisições:"
+    },
+    "endpoints": {
+      "register": {
+        "title": "Registar Novo Utilizador",
+        "description": "Cria uma nova conta de utilizador e conta bancária associada."
+      },
+      "login": {
+        "title": "Autenticar Utilizador",
+        "description": "Autentica um utilizador e retorna um token JWT."
+      },
+      "balance": {
+        "title": "Consultar Saldo",
+        "description": "Obtém o saldo atual da conta do utilizador autenticado."
+      },
+      "transactions": {
+        "title": "Listar Transações",
+        "description": "Obtém o histórico de transações da conta. Pode limitar o número de resultados com o parâmetro 'limit'."
+      },
+      "transfer": {
+        "title": "Criar Transferência",
+        "description": "Realiza uma transferência bancária para outra conta."
+      },
+      "validateIban": {
+        "title": "Validar IBAN",
+        "description": "Valida um IBAN e retorna informações da conta de destino."
+      }
+    },
+    "errors": {
+      "title": "Respostas de Erro",
+      "description": "A API retorna códigos de estado HTTP padrão para indicar sucesso ou falha:",
+      "badRequest": "Pedido Inválido",
+      "unauthorized": "Não Autorizado",
+      "notFound": "Não Encontrado",
+      "serverError": "Erro do Servidor"
+    },
+    "curlExamples": {
+      "title": "Exemplos com cURL",
+      "description": "Exemplos práticos de como usar a API com cURL:",
+      "login": "Autenticação",
+      "balance": "Consultar Saldo",
+      "transfer": "Criar Transferência"
+    }
   }
 }
