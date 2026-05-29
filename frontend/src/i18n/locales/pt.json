@@ -1,0 +1,113 @@
+{
+  "app": {
+    "name": "BankLopesNext",
+    "tagline": "Banco Online de Testes"
+  },
+  "nav": {
+    "home": "Início",
+    "dashboard": "Painel",
+    "transfers": "Transferências",
+    "logout": "Sair"
+  },
+  "auth": {
+    "login": "Entrar",
+    "register": "Registar",
+    "email": "Email",
+    "password": "Password",
+    "loginTitle": "Entrar na sua conta",
+    "registerTitle": "Criar nova conta",
+    "demoAccount": "Conta Demo",
+    "demoCredentials": "Credenciais de demonstração:",
+    "tryDemo": "Experimentar conta demo",
+    "alreadyHaveAccount": "Já tem conta?",
+    "dontHaveAccount": "Não tem conta?",
+    "loginHere": "Entre aqui",
+    "registerHere": "Registe-se aqui"
+  },
+  "register": {
+    "fullName": "Nome Completo",
+    "nif": "NIF",
+    "cc": "Cartão de Cidadão",
+    "birthDate": "Data de Nascimento",
+    "address": "Morada Completa",
+    "postalCode": "Código Postal",
+    "phone": "Telemóvel",
+    "nationality": "Nacionalidade",
+    "submit": "Criar Conta",
+    "success": "Conta criada com sucesso!",
+    "nifFormat": "9 dígitos",
+    "ccFormat": "8 dígitos + verificador + 2 letras + dígito",
+    "postalCodeFormat": "XXXX-XXX",
+    "phoneFormat": "9 dígitos (começa com 9)"
+  },
+  "dashboard": {
+    "title": "Painel de Controlo",
+    "welcome": "Bem-vindo",
+    "balance": "Saldo Disponível",
+    "accountNumber": "Número de Conta",
+    "iban": "IBAN",
+    "recentTransactions": "Últimas Transações",
+    "noTransactions": "Sem transações",
+    "viewAll": "Ver todas"
+  },
+  "transfers": {
+    "title": "Nova Transferência",
+    "recipientIban": "IBAN do Destinatário",
+    "amount": "Montante",
+    "description": "Descrição",
+    "validate": "Validar IBAN",
+    "send": "Enviar Transferência",
+    "recipientName": "Nome do Destinatário",
+    "confirm": "Confirmar Transferência",
+    "success": "Transferência realizada com sucesso!",
+    "history": "Histórico de Transferências",
+    "sent": "Enviado",
+    "received": "Recebido",
+    "to": "Para",
+    "from": "De"
+  },
+  "transaction": {
+    "incoming": "Recebido",
+    "outgoing": "Enviado",
+    "date": "Data",
+    "amount": "Montante",
+    "description": "Descrição",
+    "counterparty": "Contraparte"
+  },
+  "errors": {
+    "required": "Campo obrigatório",
+    "invalidEmail": "Email inválido",
+    "invalidNIF": "NIF inválido",
+    "invalidCC": "Cartão de Cidadão inválido",
+    "invalidPostalCode": "Código postal inválido",
+    "invalidPhone": "Número de telemóvel inválido",
+    "invalidIBAN": "IBAN inválido",
+    "insufficientBalance": "Saldo insuficiente",
+    "loginFailed": "Email ou password incorretos",
+    "registrationFailed": "Erro ao criar conta",
+    "transferFailed": "Erro ao realizar transferência",
+    "networkError": "Erro de conexão"
+  },
+  "validation": {
+    "minLength": "Mínimo {{count}} caracteres",
+    "passwordRequirements": "Mínimo 8 caracteres, maiúscula, minúscula e número"
+  },
+  "common": {
+    "loading": "A carregar...",
+    "submit": "Submeter",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "back": "Voltar",
+    "next": "Seguinte",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Fechar",
+    "search": "Pesquisar",
+    "filter": "Filtrar",
+    "export": "Exportar",
+    "import": "Importar",
+    "yes": "Sim",
+    "no": "Não"
+  }
+}

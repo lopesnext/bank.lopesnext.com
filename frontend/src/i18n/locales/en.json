@@ -1,0 +1,113 @@
+{
+  "app": {
+    "name": "BankLopesNext",
+    "tagline": "Online Banking Test Platform"
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "transfers": "Transfers",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "loginTitle": "Login to your account",
+    "registerTitle": "Create new account",
+    "demoAccount": "Demo Account",
+    "demoCredentials": "Demo credentials:",
+    "tryDemo": "Try demo account",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "loginHere": "Login here",
+    "registerHere": "Register here"
+  },
+  "register": {
+    "fullName": "Full Name",
+    "nif": "Tax ID (NIF)",
+    "cc": "Citizen Card",
+    "birthDate": "Birth Date",
+    "address": "Full Address",
+    "postalCode": "Postal Code",
+    "phone": "Mobile Phone",
+    "nationality": "Nationality",
+    "submit": "Create Account",
+    "success": "Account created successfully!",
+    "nifFormat": "9 digits",
+    "ccFormat": "8 digits + check digit + 2 letters + digit",
+    "postalCodeFormat": "XXXX-XXX",
+    "phoneFormat": "9 digits (starts with 9)"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome",
+    "balance": "Available Balance",
+    "accountNumber": "Account Number",
+    "iban": "IBAN",
+    "recentTransactions": "Recent Transactions",
+    "noTransactions": "No transactions",
+    "viewAll": "View all"
+  },
+  "transfers": {
+    "title": "New Transfer",
+    "recipientIban": "Recipient IBAN",
+    "amount": "Amount",
+    "description": "Description",
+    "validate": "Validate IBAN",
+    "send": "Send Transfer",
+    "recipientName": "Recipient Name",
+    "confirm": "Confirm Transfer",
+    "success": "Transfer completed successfully!",
+    "history": "Transfer History",
+    "sent": "Sent",
+    "received": "Received",
+    "to": "To",
+    "from": "From"
+  },
+  "transaction": {
+    "incoming": "Received",
+    "outgoing": "Sent",
+    "date": "Date",
+    "amount": "Amount",
+    "description": "Description",
+    "counterparty": "Counterparty"
+  },
+  "errors": {
+    "required": "Required field",
+    "invalidEmail": "Invalid email",
+    "invalidNIF": "Invalid NIF",
+    "invalidCC": "Invalid Citizen Card",
+    "invalidPostalCode": "Invalid postal code",
+    "invalidPhone": "Invalid phone number",
+    "invalidIBAN": "Invalid IBAN",
+    "insufficientBalance": "Insufficient balance",
+    "loginFailed": "Invalid email or password",
+    "registrationFailed": "Error creating account",
+    "transferFailed": "Error processing transfer",
+    "networkError": "Connection error"
+  },
+  "validation": {
+    "minLength": "Minimum {{count}} characters",
+    "passwordRequirements": "Minimum 8 characters, uppercase, lowercase and number"
+  },
+  "common": {
+    "loading": "Loading...",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "import": "Import",
+    "yes": "Yes",
+    "no": "No"
+  }
+}
